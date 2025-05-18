@@ -1,0 +1,10 @@
+{
+    "solidity.enable": true,
+    "solidity.executablePath": "solc",
+    "solidity.compilerSettings": {
+      "optimizer": {
+        "enabled": true,
+        "runs": 200
+      }
+    }
+  }
