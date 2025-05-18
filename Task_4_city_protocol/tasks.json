@@ -1,0 +1,22 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "compile",
+        "type": "shell",
+        "command": "solc",
+        "args": ["--bin", "--abi", "${workspaceFolder}/contracts/MyContract.sol"],
+        "problemMatcher": ["*"],
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        },
+        "presentation": {
+          "focus": false,
+          "panel": "shared",
+          "showReuseMessage": false,
+          "clear": false
+        }
+      }
+    ]
+  }
