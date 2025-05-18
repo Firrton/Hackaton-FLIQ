@@ -94,8 +94,5 @@ $$ \text{Request (On-chain Smart Contract)} \rightarrow \text{Fetch (Off-chain M
 While a full production system would involve a decentralized and robust Verifiable QRNG Oracle network and more complex smart contract logic, this implementation successfully showcases the core architectural principle: using an external, verifiable random input to drive dynamic and unpredictable state changes within a deterministic blockchain protocol, laying the foundation for the QdPC concept.
 
 Note: The implementation of the code is a demo due to the time theme of the hackaton, so it is not 100% optimized
----
-
-The QdPC model opens significant possibilities for more engaging decentralized applications, genuinely fair on-chain activities, and novel economic and governance structures in DeFi. Future work includes developing decentralized, robust, and standardized QRNG oracle networks and exploring the full design space of quantum-influenced dynamic protocol mechanics.
 
 ---
